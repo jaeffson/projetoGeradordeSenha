@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senhas </title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>
+        GERADOR DE SENHA ALEATÓRIA
+    </h1>
+    <main class="container-input">
+    <span>Tamanho <span id="value"> </span> caracteres </span>
+    <input id="slider" class="slider" type="range" min="6" max="25"value="16"/>
+    <button id=" button" class="button-ct" onclick="geratePass()"> Gerar senha</button>
+    </main>
+    
+    <div id="pass-container" onclick="copy ()" class="pass-container hide">
+        <span class="title"> Sua senha gerada foi:</span>
+        <span id="password" class="password"> 121121212</span>
+        <span class="copy">Clique na senha para copiar😀</span>
+    </div>
+    <div   class="row1">
+       <a href="https://github.com/jaeffson/jaeffson" target="_blank"><img  class="row" src="./assets/25231.png" alt="redeGithub"></a> 
+       <a href="https://www.linkedin.com/in/jaeffson-sabino-151955223/" target="_blank"> <img class="row" src="./assets/49408.png" alt="redeLinkdin"></a>
+        <p class="flooter">Sigam me </p>
+    </div>
+       
+   
+   
+    
+</body>   
+<script src="./scripts.js"></script>
+</html>

@@ -1,0 +1,153 @@
+* {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #181818;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+h1 {
+    color: aliceblue;
+    max-width: 600px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container-input {
+    max-width: 480px;
+    margin: 14px 0;
+}
+
+.container-input span {
+    color: #fff;
+    font-size: 18px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #fff;
+    height: 18px;
+    outline: none;
+    margin-top: 8px;
+}
+
+.button-ct {
+    height: 40px;
+    background-color: crimson;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pass-container {
+    max-width: 203px;
+    flex-direction: column;
+    cursor: pointer;
+    display: flex;
+    margin: 14px 0;
+}
+
+.title {
+    color: #fff;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 40px;
+
+}
+
+.password {
+    height: 60px;
+    background-color: #010101;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 237px;
+    margin-top: 10px;
+    transition: transform 0.5s;
+
+}
+
+.copy {
+    justify-content: center;
+    width: 237px;
+    color: #fff;
+    margin-top: 10px;
+    position: relative;
+    background: #010101;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+
+}
+
+.row {
+    top: 100px;
+    width: 40px;
+    position: relative;
+    align-items: center;
+    justify-items: center;
+    margin-left: 10px;
+
+}
+
+.row1 {
+    display: inline-block;
+    text-align: center;
+
+}
+
+.flooter {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 15px;
+    font: bold
+}
+
+.hide {
+    display: none;
+}
+
+.pass-container:hover .copy {
+    visibility: visible;
+    opacity: 0.6;
+}
+
+.password:hover {
+    transform: scale(1.09);
+}
+
+.button-ct:hover {
+    opacity: 0.7;
+
+}
+
+.row:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
