@@ -32,18 +32,21 @@ h1 {
 }
 
 .container-input span {
-    color: #fff;
+    color: rgb(244, 244, 244);
     font-size: 18px;
 }
 
 .slider {
-    -webkit-appearance: none;
+  
     width: 100%;
-    border-radius: 5px;
+    border-radius: 50px;
     background-color: #fff;
     height: 18px;
     outline: none;
     margin-top: 8px;
+    cursor: pointer;
+
+    
 }
 
 .button-ct {
@@ -59,7 +62,7 @@ h1 {
 }
 
 .pass-container {
-    max-width: 203px;
+    width: 250px;
     flex-direction: column;
     cursor: pointer;
     display: flex;
@@ -71,18 +74,19 @@ h1 {
     justify-content: center;
     font-size: 20px;
     margin-top: 40px;
+    text-align: center;
 
 }
 
 .password {
-    height: 60px;
+    height: 70px;
     background-color: #010101;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
-    width: 237px;
+    width: 250px;
     margin-top: 10px;
     transition: transform 0.5s;
 
@@ -101,6 +105,8 @@ h1 {
     border-radius: 5px;
     visibility: hidden;
     opacity: 0;
+     align-items: center   ;
+
 
 }
 
@@ -117,11 +123,11 @@ h1 {
 .row1 {
     display: inline-block;
     text-align: center;
-
+    
 }
 
 .flooter {
-    color: #fff;
+    color: rgb(138, 137, 137);
     margin-top: 20px;
     font-size: 15px;
     font: bold
